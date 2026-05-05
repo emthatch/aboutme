@@ -11,12 +11,10 @@
 </head>
 <body class="font-sans text-gray-800 antialiased bg-gray-50">
 
-    <!-- NAVBAR -->
     <nav class="bg-white/90 backdrop-blur shadow-md fixed w-full z-10 top-0">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16">
                 <div class="flex items-center space-x-3">
-                    <!-- Small circular avatar -->
                     <img src="images/emily-headshot.jpg" alt="Emily C. Thatcher" class="w-10 h-10 rounded-full object-cover border border-blue-900/20">
                     <span class="font-semibold text-lg md:text-xl text-blue-900">
                         Emily C. Thatcher, MPAS, PA-C
@@ -26,10 +24,8 @@
                     <a href="#about" class="text-gray-600 hover:text-blue-900 font-medium">About</a>
                     <a href="#platform" class="text-gray-600 hover:text-blue-900 font-medium">Platform</a>
                     <a href="#leadership" class="text-gray-600 hover:text-blue-900 font-medium">Leadership</a>
-                    <!-- LinkedIn icon button -->
                     <a href="https://www.linkedin.com/in/emilycthatcher" target="_blank" rel="noopener noreferrer"
                        class="inline-flex items-center justify-center w-9 h-9 rounded-full bg-blue-700 text-white hover:bg-blue-800 transition">
-                        <!-- Simple LinkedIn SVG icon -->
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4 fill-current">
                             <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8A53.79 53.79 0 0 1 107.58 53.8c0 29.7-24.09 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.6V448h-92.7V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.8-48.3 93.9 0 111.2 61.8 111.2 142.3V448z"/>
                         </svg>
@@ -39,10 +35,8 @@
         </div>
     </nav>
 
-    <!-- HERO -->
     <header class="bg-blue-900 text-white pt-28 pb-20 px-4">
         <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-            <!-- Text side -->
             <div class="text-center md:text-left">
                 <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-4">
                     Vote Emily C. Thatcher for CAPA Vice President
@@ -50,7 +44,10 @@
                 <p class="text-xl md:text-2xl font-light mb-6 text-blue-100">
                     "My vision is clear: to fully integrate PAs into every aspect of California’s healthcare system."
                 </p>
-                <div class="flex flex-col sm:flex-row gap-3 justify-center md:justify-start">
+                <div class="flex flex-col sm:flex-row gap-3 justify-center md:justify-start flex-wrap">
+                    <a href="https://capanet.org/" target="_blank" rel="noopener noreferrer" class="inline-block bg-blue-500 text-white font-semibold px-6 py-3 rounded-md shadow hover:bg-blue-400 transition">
+                        Vote Now via CAPA
+                    </a>
                     <a href="#platform" class="inline-block bg-white text-blue-900 font-semibold px-6 py-3 rounded-md shadow hover:bg-gray-100 transition">
                         Read My Platform
                     </a>
@@ -60,12 +57,9 @@
                     </a>
                 </div>
             </div>
-            <!-- Image side -->
             <div class="flex justify-center md:justify-end">
                 <div class="relative">
-                    <!-- Decorative background circle -->
                     <div class="w-64 h-64 md:w-72 md:h-72 rounded-full bg-blue-800/60 blur-0 absolute -top-4 -left-4"></div>
-                    <!-- Headshot card -->
                     <div class="relative bg-white/10 backdrop-blur border border-white/20 rounded-3xl p-4 shadow-xl">
                         <img src="images/emily-headshot.jpg" alt="Emily C. Thatcher headshot"
                              class="w-56 h-56 md:w-64 md:h-64 rounded-2xl object-cover">
@@ -79,12 +73,11 @@
         </div>
     </header>
 
-    <!-- ABOUT -->
     <section id="about" class="py-16 px-4 bg-white">
         <div class="max-w-4xl mx-auto text-center">
             <h2 class="text-3xl font-bold text-gray-900 mb-6">A Bold, Innovative Approach to Leadership</h2>
             <p class="text-lg text-gray-600 leading-relaxed mb-6">
-                With extensive clinical experience in Emergency Medicine and as a PhD student researching health services and computational science, I bring a unique, forward-thinking perspective to the table. True integration requires us to be visible, vocal, and deeply connected at every table where healthcare decisions are made.
+                With years of clinical experience in Emergency Medicine and as a PhD student researching health services and computational science, I bring a unique, forward-thinking perspective to the table. True integration requires us to be visible, vocal, and deeply connected at every table where healthcare decisions are made.
             </p>
             <p class="text-lg text-gray-600 leading-relaxed">
                 I am ready to be a vocal, forward-thinking advocate for all California PAs, bridging the gap between established leadership and the fresh perspectives our profession needs to grow.
@@ -92,7 +85,6 @@
         </div>
     </section>
 
-    <!-- PLATFORM -->
     <section id="platform" class="py-16 px-4 bg-gray-50">
         <div class="max-w-6xl mx-auto">
             <h2 class="text-3xl font-bold text-center text-gray-900 mb-4">My Core Pillars</h2>
@@ -101,56 +93,67 @@
             </p>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
-                    <h3 class="text-xl font-bold text-blue-900 mb-3">Amplifying Grassroots & Student Voices</h3>
-                    <p class="text-gray-600">
-                        The future of our profession lies in our students. I will partner closely with PA student leaders to foster a robust presence at the State Capitol and AAPA, ensuring the next generation actively shapes the policies dictating their future practice.
-                    </p>
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-xl font-bold text-blue-900 mb-3">Amplifying Grassroots & Student Voices</h3>
+                        <p class="text-gray-600">
+                            The future of our profession lies in our students. I will partner closely with PA student leaders to foster a robust presence at the State Capitol and AAPA, ensuring the next generation actively shapes the policies dictating their future practice.
+                        </p>
+                    </div>
+                    <img src="images/pillar-students.jpg" alt="PA Students" class="w-full h-48 object-cover rounded-lg mt-6">
                 </div>
 
-                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
-                    <h3 class="text-xl font-bold text-blue-900 mb-3">Deepening Legislative Presence</h3>
-                    <p class="text-gray-600">
-                        Strengthening our profession requires a persistent, on-the-ground presence. Positioned locally near the Capitol, I will regularly attend healthcare hearings and cultivate relationships with legislative aides. We must be the trusted resources in the room before decisions are finalized.
-                    </p>
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-xl font-bold text-blue-900 mb-3">Deepening Legislative Presence</h3>
+                        <p class="text-gray-600">
+                            Strengthening our profession requires a persistent, on-the-ground presence. Positioned locally near the Capitol, I will regularly attend healthcare hearings and cultivate relationships with legislative aides. We must be the trusted resources in the room before decisions are finalized.
+                        </p>
+                    </div>
+                    <img src="images/pillar-capitol.jpg" alt="California State Capitol" class="w-full h-48 object-cover rounded-lg mt-6">
                 </div>
 
-                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
-                    <h3 class="text-xl font-bold text-blue-900 mb-3">Building Strategic Healthcare Alliances</h3>
-                    <p class="text-gray-600">
-                        Solidifying our role means building strong relationships with key allies. I will initiate targeted outreach with newly formed PA unions, RNs, MD/DOs, PTs, and others to cultivate a collaborative environment that champions the value PAs bring to patient care.
-                    </p>
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-xl font-bold text-blue-900 mb-3">Building Strategic Healthcare Alliances</h3>
+                        <p class="text-gray-600">
+                            Solidifying our role means building strong relationships with key allies. I will initiate targeted outreach with newly formed PA unions, RNs, MD/DOs, PTs, and others to cultivate a collaborative environment that champions the value PAs bring to patient care.
+                        </p>
+                    </div>
+                    <img src="images/pillar-alliances.jpg" alt="Healthcare professionals collaborating" class="w-full h-48 object-cover rounded-lg mt-6">
                 </div>
 
-                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
-                    <h3 class="text-xl font-bold text-blue-900 mb-3">Leveraging Data and Innovation</h3>
-                    <p class="text-gray-600">
-                        My deep engagement with big data and healthcare technology equips me to leverage cutting-edge tools to expand CAPA’s scope, reach, and educational initiatives. Together, we can utilize geospatial analysis and health services data to break down legislative barriers.
-                    </p>
+                <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition flex flex-col justify-between">
+                    <div>
+                        <h3 class="text-xl font-bold text-blue-900 mb-3">Leveraging Data and Innovation</h3>
+                        <p class="text-gray-600">
+                            My deep engagement with big data and healthcare technology equips me to leverage cutting-edge tools to expand CAPA’s scope, reach, and educational initiatives. Together, we can utilize geospatial analysis and health services data to break down legislative barriers.
+                        </p>
+                    </div>
+                    <img src="images/pillar-data.jpg" alt="Data and Innovation in Healthcare" class="w-full h-48 object-cover rounded-lg mt-6">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- LEADERSHIP -->
     <section id="leadership" class="py-16 px-4 bg-white border-t border-gray-200">
         <div class="max-w-4xl mx-auto">
-            <h2 class="text-3xl font-bold text-center text-gray-900 mb-8">Proven Leadership in Action</h2>
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-8">Young, Innovative Leadership</h2>
             <div class="bg-blue-50 p-8 rounded-lg border border-blue-100">
                 <h3 class="text-2xl font-semibold text-blue-900 mb-4">Co-Leading PAs-CAN!</h3>
                 <p class="text-gray-700 mb-4">
-                    Last year, I co-led the <strong>California Physician Associate Students: Collaborate in Advocacy Now (PAs-CAN!)</strong> grassroots initiative. Recognizing that California leads the nation with 633 designated healthcare shortage areas, we launched a multi-tiered campaign to mobilize constituent meetings between PAs and newly elected state legislators.
+                    I believe that to fully integrate PAs into every aspect of California’s healthcare system, CAPA must focus its energy on strengthening and promoting the PA Profession. True integration requires us to be visible, vocal, and deeply connected at every table where healthcare decisions are made—whether at medical conferences, during bill considerations, or within interdisciplinary clinical teams. As Vice President, my vision for advancing this core area relies on a proactive strategy that mobilizes our students, builds strategic alliances, deepens our legislative presence, and amplifies our grassroots initiatives.
+First, the future of our profession lies in our students. We must leverage the tremendous energy and strength in numbers that our PA students bring across California. By fostering a much larger student presence at the State Capitol and at local events, we can ensure the next generation is actively shaping the policies that will dictate their future practice. I am committed to partnering closely with leaders like Deon Kidd to spearhead this effort, ensuring CAPA leadership and our students are highly visible, united advocates.
+Second, promoting our profession means solidifying our role within the broader healthcare team. I will develop a targeted outreach strategy to build strong relationships with key allies across every major healthcare profession. By initiating personal outreach and casual coffee chats with representatives from the newly formed PA unions, RNs, MDs, and PTs, we can cultivate a collaborative environment that recognizes and champions the essential value PAs bring to patient care.
+Third, strengthening our profession requires a persistent, on-the-ground presence where legislation is crafted. Positioned locally near the Capitol, I will regularly attend healthcare committee hearings. Becoming intimately familiar with emerging legislation and building personal, working relationships with the legislative aides who advise key senators is crucial. We cannot simply react to healthcare decisions; we must be the trusted resources in the room before those decisions are finalized.
+Finally, promotion is fueled by robust grassroots involvement. I plan to build a more synergistic relationship with AAPA, ensuring our state efforts align with and amplify national movements. By working directly with PA student leaders to organize and run campaigns like "PAs Can," we can create a powerful, unified voice that resonates from local clinics to the highest levels of state government.
+By empowering our students, uniting with allied health professions, engaging directly with legislative committees, and strengthening our grassroots network, CAPA can achieve its vision of total integration and secure a stronger future for all California PAs..
                 </p>
-                <ul class="list-disc list-inside text-gray-700 space-y-2-2">
-                    <li>Coordinated <strong>31 separate legislative meetings</strong> spanning 16 Assembly and 15 Senate districts.</li>
-                    <li>Mobilized students from 13 different California PA programs alongside certified PAs.</li>
-                    <li>Proved that organizing our collective voices is the most effective way to drive state-level advocacy.</li>
                 </ul>
             </div>
         </div>
     </section>
 
-    <!-- FOOTER -->
     <footer class="bg-gray-900 text-white py-12 text-center">
         <div class="max-w-4xl mx-auto px-4">
             <h2 class="text-2xl font-bold mb-4">Let's Secure a Stronger Future for California PAs.</h2>
@@ -170,6 +173,15 @@
                     </span>
                     <span>Connect with me on LinkedIn</span>
                 </a>
+            </div>
+
+            <div class="mt-8 mb-4 border-t border-gray-800 pt-8">
+                <p class="text-gray-400">
+                    Want to learn more about the PA profession? 
+                    <a href="https://www.aapa.org/" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-blue-300 underline font-medium transition">
+                        Visit the AAPA website
+                    </a>.
+                </p>
             </div>
 
             <div class="mt-4 text-sm text-gray-500">
